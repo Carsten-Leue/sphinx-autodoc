@@ -28,26 +28,16 @@ author = 'Carsten-Leue'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.coverage',
-    'sphinx.ext.autosectionlabel',
     'sphinx.ext.napoleon',
     'sphinx_autodoc_typehints',
     'sphinx.ext.autodoc'
-]
-
-source_suffix = [
-    '.rst',
-    '.md'
 ]
 
 # Some config
 intersphinx_mapping = {'python': ('https://docs.python.org/3', None)}
 always_document_param_types = True
 napoleon_use_ivar = True
-autosectionlabel_prefix_document = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
