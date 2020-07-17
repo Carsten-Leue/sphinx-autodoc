@@ -60,7 +60,6 @@ old/
 *-old/
 *-notrack/
 no-track/
-build/
 combo/
 reference/
 jscoverage_lib/
