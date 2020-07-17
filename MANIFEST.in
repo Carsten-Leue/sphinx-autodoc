@@ -1,0 +1,6 @@
+include requirements.txt 
+include test-requirements.txt
+include LICENSE
+
+recursive-include sphinx_autodoc py.typed
+include sphinx_autodoc/docs/objects.inv
